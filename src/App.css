@@ -1,0 +1,72 @@
+:root {
+  --readonly-color: #eeeeee;
+}
+
+.h1 {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.h2 {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.h3 {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.yellow {
+  color: rgb(199, 179, 0);
+}
+
+.readonly {
+  .ant-input-number-readonly {
+    input.ant-input-number-input{
+      background-color: var(--readonly-color);
+    }
+  }
+}
+
+.explainable {
+  .ant-input-number-readonly {
+    input.ant-input-number-input{
+      color: -webkit-link;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+  }
+}
+
+.child-birth-year {
+  margin-bottom: 0px;
+}
+
+.child-info-box {
+  margin-bottom: 1em;
+}
+
+.link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.tax-bracket {
+  margin-bottom: 2em;
+}
